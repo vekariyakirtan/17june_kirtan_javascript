@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <section id="card">
+        <div class="container">
+            <div class="main_heading">
+                <h1 class="main_h1">My Shopping Cart</h1>
+            </div>
+
+            <div class="card_information">
+                <div class="card_title">
+                    <div class="title_1">
+                        <h2>Description</h2>
+                        <img src="img/img_1.jpg" alt="">
+                    </div>
+                    <div class="title_2">
+                        <h2>Quantity</h2>
+                        <div class="btn">
+                            <td><input class="qty" type="number" id="qty" value="1" min="1" max="5" onchange="sbtot()">
+                            </td>
+                        </div>
+                    </div>
+                    <div class="title_3">
+                        <h2>Price</h2>
+                        <input class="product_price" type="text" id="price" value="50000" readonly>
+                    </div>
+                    <div class="title_4">
+                        <h2>Remove</h2>
+                        <div class="remove_btn">
+                            <button class="remove">X</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_foot">
+                    <p class="card_p">Buy 1 Items to Get Discount of 5%</p>
+                    <div class="discount">
+                        <button class="card_p">The discount amount is: <label id="card_d">2500</label></button>
+                    </div>
+                    <div class="total">
+                        <button class="total_btn">Total:<label id="total_price"> 47500</label></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
