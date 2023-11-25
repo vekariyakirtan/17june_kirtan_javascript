@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input{
+            padding: 10px 35px;
+            border: 1px solid #111;
+            outline: none;
+            margin: 1rem 0;
+        }
+
+        #res{
+            border: none;            
+            box-shadow:  4px 4px 10px #e2e2e2;
+        }
+
+        button{
+            padding: 10px 20px;
+            border: 1px solid #444;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: #fff;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div class="input_fild">
+            <input type="text" name="" id="inp1"><br>
+            <input type="text" name="" id="inp2">
+            <label for="">Ans</label>
+            <input type="text" name="" id="res">
+
+            <div class="btuton">
+                <button id="add">+</button>
+                <button id="mal">*</button>
+                <button id="div">/</button>
+                <button id="sub">-</button>
+                <button id="mod">%</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+
+        const n1 = document.querySelector("#inp1");
+        const n2 = document.querySelector("#inp2");
+        const res = document.querySelector("#res");
+
+        document.querySelector("#add").addEventListener('click' , () => {
+            res.value = parseFloat(n1.value) + parseFloat(n2.value);
+        })
+
+        document.querySelector("#mal").addEventListener('click' , () => {
+            res.value = parseFloat(n1.value) * parseFloat(n2.value);
+        })
+
+        document.querySelector("#div").addEventListener('click' , () => {
+            res.value = parseFloat(n1.value) / parseFloat(n2.value);
+        })
+
+        document.querySelector("#sub").addEventListener('click' , () => {
+            res.value = parseFloat(n1.value) - parseFloat(n2.value);
+        })
+
+        document.querySelector("#mod").addEventListener('click' , () => {
+            res.value = parseFloat(n1.value) % parseFloat(n2.value);
+        })
+        
+
+    </script>
+</body>
+</html>
