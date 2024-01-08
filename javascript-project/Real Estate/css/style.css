@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: 1;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C2E1DD;
+    padding: 12px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    /* padding-top: 15px; */
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #6A7087;
+}
+
+header nav ul li .active {
+    color: #2C5F63;
+    font-weight: 500;
+}
+
+header nav .icon {
+    font-size: 1.3rem;
+    letter-spacing: 10px;
+}
+
+header nav .toggler-btn {
+    display: none;
+}
+
+header nav .toggler-btn .bar {
+    display: block;
+    background: #000;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+}
+
+/* section-1 style start */
+
+#home .top_banner {
+    background-color: #C2E1DD;
+}
+
+#home .top_banner .container .row span,
+#collection .container .collection .content_group .content span,
+footer .container .row .title ul li a i {
+    color: #589195;
+}
+
+#home .top_banner .container .row h2,
+#jeans_product .container .row .content,
+#services .container .row h6,
+#card .container .row h2,
+#jeans_product .container .row .content .counter .time span,
+#jeans_product .container .row .content .counter p,
+#jeans_product .container .row .content .counter .time p,
+#category .container .row .content h5 #about_us .container .row h2 {
+    color: #3A415C;
+}
+
+#home .top_banner .container .row p,
+#jeans_product .container .row .content p,
+#card .container .row p,
+#product .container .row .menu p,
+#category .container p,
+#category .container .row .content span,
+#about_us .container .row p,
+#about_us .container .row .card p,
+footer .container .row p {
+    color: #707686;
+}
+
+#home .top_banner .container .row .main_btn {
+    background-color: #589195;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+/* section-1 style end */
+
+/* section-2 style start  */
+
+#services .container .row span i {
+    color: #589195;
+}
+
+#services .container .row p {
+    color: #7F8698;
+}
+
+/* section-2 style end */
+
+/* section-3 style start */
+
+#card .container .row .card {
+    background: #F7F8FC;
+    border: none;
+}
+
+#card .container .row .card .sale .top {
+    background: #31797E;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 12px;
+}
+
+#card .container .row .card .sale span {
+    background: #F04726;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 12px;
+}
+
+#card .container .row .card-body .card-title,
+#product .container .row h2,
+#product .container .row .menu ul li .active,
+#collection .container .collection .collection_1 .content_group .content h3,
+#collection .container .collection .collection_2 .content_group .content h3,
+#collection .container .collection .collection_1 .content_group .content button a,
+#collection .container .collection .collection_2 .content_group .content button a,
+#product .container .row .card-body .card-title,
+#product .container .row h2,
+#product .container .row .menu ul li .active,
+#category .container h2 {
+    color: #34394C;
+}
+
+#card .container .row .card-body span i,
+#about_us .container .row .card .top_icon .star {
+    color: #FFB400;
+}
+
+#card .container .row .card-body span p {
+    color: #7F8698;
+}
+
+#card .container .row .card-body .size div span {
+    border: 2px solid #A5A9B2;
+    border-radius: 3px;
+    padding: 2px 10px;
+}
+
+#card .container .row .card-body .size p {
+    color: #297176;
+}
+
+.card {
+    height: 450px;
+    overflow: hidden;
+}
+
+#card .container .row .card .card-img-top {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* section-3 style end */
+
+/* section-4 style start */
+
+#jeans_product,
+#jeans_product .container .row .content .button button {
+    background: #F7F8FC;
+}
+
+#jeans_product .container .row .content .button button a {
+    color: #ffff;
+    background: #589195;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+#jeans_product .container .row .content .button span .discount {
+    color: #5B6075;
+}
+
+#jeans_product .container .row .content span {
+    color: #589195;
+}
+
+#jeans_product .container .row .content .counter span {
+    background: #fff;
+    border-radius: 50%;
+    padding: 15px 15px;
+}
+
+#jeans_product .container .row .content .counter .time div:nth-child(1):after {
+    content: " : ";
+    position: absolute;
+    right: -23%;
+    font-size: 2rem;
+    top: -20%;
+}
+
+#jeans_product .container .row .content .counter .time div:nth-child(2):after {
+    content: " : ";
+    position: absolute;
+    right: -23%;
+    font-size: 2rem;
+    top: -20%;
+}
+
+#jeans_product .container .row .content .counter .time div:nth-child(3):after {
+    content: " : ";
+    position: absolute;
+    right: -23%;
+    font-size: 2rem;
+    top: -20%;
+}
+
+#jeans_product .container .row .content .counter .time div {
+    position: relative;
+}
+
+
+/* section-4 style end */
+
+/* section-5 style start */
+
+#product .container .row .menu ul li a {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#product .container .row .menu ul li a {
+    color: #AFB4C4;
+}
+
+#product .container .row .card {
+    background: #F7F8FC;
+    border: none;
+}
+
+#product .container .row .card .sale .top {
+    background: #31797E;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 12px;
+}
+
+#product .container .row .card .sale span {
+    background: #F04726;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 12px;
+}
+
+#product .container .row .card-body span i {
+    color: #FFB400;
+}
+
+#product .container .row .card-body span p {
+    color: #7F8698;
+}
+
+#product .container .row .card-body .size .product_size span {
+    border: 2px solid #A5A9B2;
+    border-radius: 3px;
+    padding: 2px 10px;
+}
+
+#product .container .row .card-body .size .color_point span {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#product .container .row .card-body .size .color_point span:nth-child(1) {
+    background-color: #2ED0E7;
+}
+
+#product .container .row .card-body .size .color_point span:nth-child(2) {
+    background-color: #C399AD;
+}
+
+#product .container .row .card-body .size .color_point span:nth-child(3) {
+    background-color: #040404;
+}
+
+
+#product .container .row .card-body .size p {
+    color: #297176;
+}
+
+.card {
+    height: 450px;
+    overflow: hidden;
+}
+
+#product .container .row .card .card-img-top {
+    height: 100%;
+}
+
+/* section-5 style end */
+
+/* sectiopn-6 style start */
+
+#collection .container .collection .collection_1,
+#collection .container .collection .collection_2 {
+    height: 300px !important;
+    overflow: hidden !important;
+}
+
+#collection .container .collection .collection_1,
+#collection .container .collection .collection_1 .content_group .content button a {
+    background-color: #E9E6F0;
+}
+
+#collection .container .collection .collection_2,
+#collection .container .collection .collection_2 .content_group .content button a {
+    background-color: #F6EBD9;
+}
+
+#collection .container .collection .collection_1 .content_group .content,
+#collection .container .collection .collection_2 .content_group .content {
+    max-width: 230px !important;
+    width: 100% !important;
+}
+
+
+
+
+/* section-6 style end */
+
+/* section-8 style start */
+
+#about_us{
+    background-color: #F6F8FA;
+}
+
+#about_us .container .row .btn_1 {
+    border-radius: 50%;
+    border: 2px solid #599296;
+    padding: 7px 10px;
+}
+
+#about_us .container .row .btn_1 i {
+    font-size: 1.2rem;
+    color: #599296;
+}
+
+#about_us .container .row .btn_2 {
+    border-radius: 50%;
+    border: 2px solid #599296;
+    padding: 7px 10px;
+}
+
+#about_us .container .row .btn_2 i {
+    font-size: 1.2rem;
+    color: #599296;
+}
+
+#about_us .container .row .card p {
+    font-style: italic;
+}
+
+/* section-8 style end */
+
+/* footer style start */
+
+footer{
+    background-color: #E8EAEF;
+}
+footer .container .row .email input{
+    outline: none !important;
+    box-shadow: none !important;
+}
+footer .container .row .icon{
+    letter-spacing: 6px;
+}
+footer .container .row .icon i{
+    color: #7F8495;
+}
+footer .container .row .title ul li a {
+    color: #6E7489;
+}
+
+/* footer style end */
+
